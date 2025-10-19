@@ -47,7 +47,7 @@ async function conexion(UnFiltro = "All") {
 
   const filtroNormalizado = normalizar(UnFiltro);
 
-  // 🟢 Si se selecciona "Otros", mostrar personajes que no pertenecen a las grandes casas
+  //  Si se selecciona "Otros", mostrar personajes que no pertenecen a las grandes casas
   if (filtroNormalizado === "otros") {
     const filtrados = data.filter(personaje => {
       const familiaRaw = personaje.family || "";
@@ -80,7 +80,7 @@ async function conexion(UnFiltro = "All") {
   return filtrados;
 }
 
-// 🧩 Función para cargar todos los personajes al iniciar
+//  Función para cargar todos los personajes al iniciar
 async function General() {
   if (personajes.length === 0) {
     personajes = await conexion("All");
