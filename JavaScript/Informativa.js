@@ -18,7 +18,7 @@ function Informativa() {
 
   // Título principal
   const titulo = document.createElement("h1");
-  titulo.textContent = "Westeros Atlas – Explora los Continentes de Game of Thrones";
+  titulo.textContent = "APIGOT – Explora el mundo de Game of Thrones";
   titulo.style.fontSize = "2rem";
   titulo.style.marginBottom = "20px";
   titulo.style.color = "#ffd700";
@@ -26,18 +26,18 @@ function Informativa() {
   // Descripción
   const descripcion = document.createElement("p");
   descripcion.textContent =
-    "Descubre los misterios, culturas y geografías de los cuatro continentes del mundo de Game of Thrones: Westeros, Essos, Sothoryos y Ulthos. Esta aplicación te permitirá explorar cada región con imágenes y detalles fascinantes basados en la saga de George R. R. Martin.";
+    "Descubre los personajes,misterios, culturas y geografías de los cuatro continentes del mundo de Game of Thrones: Westeros, Essos, Sothoryos y Ulthos. Esta aplicación te permitirá explorar cada región con imágenes y detalles fascinantes basados en la saga de George R. R. Martin.";
   descripcion.style.maxWidth = "800px";
   descripcion.style.lineHeight = "1.5";
   descripcion.style.marginBottom = "30px";
 
   // Imagen principal (póster)
   const imagen = document.createElement("img");
-  imagen.src = "./imagenes/Emblema_medieval_APIGOT.png";
+  imagen.src = "https://stickerrs.com/wp-content/uploads/2024/03/Game-of-Thrones-Reactions-Stickers.png";
   imagen.alt = "Mapa de los continentes de Game of Thrones";
-  imagen.style.width = "70%";
+  imagen.style.width = "50%";
   imagen.style.borderRadius = "15px";
-  imagen.style.boxShadow = "0 0 15px rgba(255,255,255,0.3)";
+  imagen.style.boxShadow = "0 0 15px rgba(191, 194, 12, 0.3)";
   imagen.style.marginBottom = "25px";
 
   // Lema o frase promocional
